@@ -20,7 +20,7 @@ How to Use the Crypto System
   Follow these steps to utilize the cryptographic system:
 
     Input a 128-bit encryption key into the chip via the UART interface. Ensure that you include a 0x0D,0x0A end symbol after 16 transitions to indicate the end of key input.
-    Once the key is successfully buffered, input the 128-bit original message or ciphertext into the chip. Again, conclude with a 0x0D,0x0A end symbol.
+    Once the key is successfully buffered, input the 128-bit plaintext or ciphertext into the chip. Again, conclude with a 0x0D,0x0A end symbol.
     The internal AES module will process the information and send the result through UART, including an end symbol to signify completion.
 
 Testing and Verification
